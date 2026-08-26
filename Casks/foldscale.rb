@@ -2,6 +2,9 @@ cask "foldscale" do
   version "1.2.0"
   sha256 "2a53d74d78a15526e591c55cfa6b61de850a71de5e25d969faaf1af218730c2f"
 
+  # The app updates itself (Sparkle); brew upgrade defers unless --greedy.
+  auto_updates true
+
   url "https://github.com/Mikehoncho32/foldscale/releases/download/v#{version}/Foldscale-#{version}.dmg"
   name "Foldscale"
   desc "Finder-native disk space analyzer"

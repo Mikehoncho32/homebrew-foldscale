@@ -9,5 +9,5 @@ curl -fsSL -o "${tmp}/Foldscale.dmg" \
 sha="$(shasum -a 256 "${tmp}/Foldscale.dmg" | cut -d' ' -f1)"
 sed -i "" -e "s/^  version \".*\"/  version \"${version}\"/" -e "s/^  sha256 \".*\"/  sha256 \"${sha}\"/" "${cask}"
 rm -rf "${tmp}"
-echo "radix.rb -> ${version} (${sha})"
+echo "foldscale.rb -> ${version} (${sha})"
 brew audit --cask --strict "${cask}" && brew style "${cask}" && echo "OK — commit and push."
