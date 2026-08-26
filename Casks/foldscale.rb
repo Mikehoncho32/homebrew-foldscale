@@ -18,13 +18,13 @@ cask "foldscale" do
 
   zap trash: [
     "~/Library/Application Support/Foldscale",
-    "~/Library/Caches/io.github.mikehoncho32.foldscale",
-    "~/Library/Preferences/io.github.mikehoncho32.foldscale.plist",
-    "~/Library/Saved Application State/io.github.mikehoncho32.foldscale.savedState",
     # Left behind by the app's previous name (Radix, up to 1.1.0).
     "~/Library/Application Support/Radix",
+    "~/Library/Caches/io.github.mikehoncho32.foldscale",
     "~/Library/Caches/io.github.mikehoncho32.radix",
+    "~/Library/Preferences/io.github.mikehoncho32.foldscale.plist",
     "~/Library/Preferences/io.github.mikehoncho32.radix.plist",
+    "~/Library/Saved Application State/io.github.mikehoncho32.foldscale.savedState",
     "~/Library/Saved Application State/io.github.mikehoncho32.radix.savedState",
   ]
 end
