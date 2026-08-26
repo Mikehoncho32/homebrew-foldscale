@@ -1,4 +1,4 @@
-cask "radix" do
+cask "radix-finder" do
   version "1.1.0"
   sha256 "5d50ebc37cde2668fdf97cdfbe86925c3b10cc8850ae59bcf8d85a525fa536e9"
 

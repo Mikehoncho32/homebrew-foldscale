@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Bump Casks/radix.rb to a published release: ./update.sh 1.2.0
+# Bump Casks/radix-finder.rb to a published release: ./update.sh 1.2.0
 set -euo pipefail
 version="${1:?usage: ./update.sh <version>}"
-cask="$(cd "$(dirname "$0")" && pwd)/Casks/radix.rb"
+cask="$(cd "$(dirname "$0")" && pwd)/Casks/radix-finder.rb"
 tmp="$(mktemp -d)"
 curl -fsSL -o "${tmp}/Radix.dmg" \
   "https://github.com/Mikehoncho32/radix/releases/download/v${version}/Radix-${version}.dmg"
