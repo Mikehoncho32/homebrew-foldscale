@@ -1,6 +1,6 @@
 cask "foldscale" do
-  version "1.4.0"
-  sha256 "dd2cab06f56cef44703f5e5a2feb11cb13531d8a801fac5aff6a63a59f4ec9ce"
+  version "1.4.1"
+  sha256 "3e345cc7fe4603cbf8d4a47d828ab6aa7a9033ce1a84e18cd78e5ce15da093ad"
 
   url "https://github.com/Mikehoncho32/foldscale/releases/download/v#{version}/Foldscale-#{version}.dmg"
   name "Foldscale"
